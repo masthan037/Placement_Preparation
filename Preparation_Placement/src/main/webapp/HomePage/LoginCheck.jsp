@@ -10,11 +10,18 @@
 <%
 	String UserName = request.getParameter("UserName");
 	String Passward = request.getParameter("Passward");
-	if(UserName.equals("M") && Passward.equals("7")){
-		response.sendRedirect("../AfterLogIn/Login.jsp");
+	try{
+		
+	
+	if(UserName.equals("M") && Passward.equals("M")){
+		response.sendRedirect("../AfterLogIn/AfterLogin.jsp");
 	}
 	else{
 		response.sendRedirect("HomePage.jsp");
+	}
+	}
+	catch(Exception e){
+		
 	}
 %>
 </body>

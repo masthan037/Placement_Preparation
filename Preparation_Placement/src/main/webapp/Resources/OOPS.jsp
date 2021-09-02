@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1> Welcome Masthan</h1>
+<h1>Here are the resources for OOPS</h1>
 </body>
 </html>
