@@ -1,0 +1,177 @@
+@charset "ISO-8859-1";
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #c2d4dd;
+}
+
+.navabrs{
+  width:100%;
+  padding: 0px; 
+}
+
+.logo{
+  color: white;
+  padding: 14px 16px;
+  float: left;
+}
+
+.links{
+  background-color: #333;
+  width: 100%;
+}
+
+.links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.links ul  li {
+  float: right;
+}
+
+.links ul  li:hover{
+  background-color:rgb(77, 77, 77);
+}
+
+.links ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#discussion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  padding-bottom: 2rem;
+}
+
+.discussion-heading {
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.discussion-heading h1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: #e2e2e2;
+  padding: 10px 20px;
+}
+
+.discussion-heading span {
+  font-size: 1.3 rem;
+  color: #252525;
+  margin: 10px;
+  letter-spacing: 2px;
+}
+
+.submit-answer-box {
+  height: 50px;
+  width: 300px;
+  margin-right: 100px;
+}
+
+.answer-heading h6 {
+  margin-top: 30px;
+}
+
+.answer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.answer-box {
+  width: 700px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: #ffff;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-user strong {
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client-comment p {
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+
+.answer-box:hover {
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+
+.footer{
+  height: 10rem;
+  width: 100%;
+  background-color: #333;
+}
+
+.footer h6{
+  color: white;
+  text-align: center;
+  padding-top: 8rem;
+}

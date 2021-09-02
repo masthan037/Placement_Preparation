@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class = "HomePage">
-<img src = "Home.PNG" class = "Home" style =" width: 100%; height: 100%;" >
+<img src = "../images/Home.PNG" class = "Home" style =" width: 100%; height: 100%;" >
 <h2>Administrator</h2>
 <form action="LoginCheck.jsp" method="post">
   <div class="container">
@@ -22,5 +22,8 @@
   </div>
 </form>
 </div>
+<%--
+
+--%>
 </body>
 </html>

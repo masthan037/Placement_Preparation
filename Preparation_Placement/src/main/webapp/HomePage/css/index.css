@@ -1,0 +1,154 @@
+@charset "ISO-8859-1";
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.navabrs{
+    width:100%;
+    padding: 0px; 
+}
+
+.logo{
+    color: white;
+    padding: 14px 16px;
+    float: left;
+}
+
+.links{
+    background-color: #333;
+    width: 100%;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  .links ul  li {
+    float: right;
+  }
+
+  .links ul  li:hover{
+    background-color:rgb(77, 77, 77);
+}
+  
+  .links ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .homepage{
+    height: auto;
+    width: 100%;
+  }
+
+  .headersec{
+      height: 40rem;
+      width: 100%;
+      background-color: #92A8D1;
+  }
+  .headersec h1{
+      padding-top: 10rem;
+      text-align: center;
+  }
+  .headersec p{
+      
+    padding-top: 2rem;
+    text-align: center;
+}
+
+  .resource{
+    height: 50rem;
+    width: 100%;
+    
+ 
+}
+.resource h3{
+  padding-top: 2rem;
+  text-align: center;
+}
+.resource ul {
+    width: auto;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 5rem;
+    overflow: hidden;
+    
+  }
+  
+  .resource ul  li {
+    float: left;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    border: 0.1rem #98DDDE;
+    border-radius: 1rem;
+    background-color: #98DDDE;
+  }
+
+  .resource ul  li:hover{
+      background-color: #b3dbdb;
+  }
+  
+  .resource ul li a {
+    font-size: 1.5rem;
+    display: block;
+    color: black;
+    padding-top:6rem;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+  }
+
+.feedback{
+  padding-top: 2rem;
+  height: max-content;
+  width: 100%;
+  background-color: #deeaee;
+}
+
+.feedback h3{
+  padding-top: 5rem;
+  color: black;
+  text-align: center;
+}
+
+.fform{
+  
+  padding: 5rem;
+  padding-top: 2rem;
+  margin: 0 auto; 
+  width:40rem;
+}
+
+
+
+
+.footer{
+    height: 10rem;
+    width: 100%;
+    background-color: #333;
+    
+}
+
+.footer h6{
+  color: white;
+  text-align: center;
+  padding-top: 8rem;
+}
