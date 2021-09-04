@@ -12,9 +12,9 @@
 <body>
 	<navbar class="navbars">
         <div class="links">
-            <p class="logo">Logo</p>
+            <p class="logo">Placement Preparation Guiders</p>
             <ul>
-                <li><a href="">LogIn/SignUp</a></li>
+                <li><a href="../HomePage/HomePage.jsp">LogIn/SignUp</a></li>
                 <li><a href="../DoubtClearance/questions.jsp">Doubt Assistance</a></li>
                 <li><a href="../HomePage/index.jsp#prepresource">Preparation Resources</a></li>
                 <li><a href="../HomePage/index.jsp">Home</a></li>

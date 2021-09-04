@@ -53,13 +53,13 @@ body{
     text-decoration: none;
   }
   
- .login{
+  .signup{
  	width:100%;
  	height:max-content;
  	background-color:#E1F2F7;
  }
- 
- .HomePage{
+  
+ .signupCont{
  	padding-top:5rem;
  	padding-bottom:10rem;
  	width:50%;
@@ -68,17 +68,17 @@ body{
  
  }
 
-.HomePage h1,h4{
+.signupCont h1,h4{
  	width:100%;
  	text-align:center;
  	
  }
  
- .HomePage h4{
+ .signupCont h4{
  	padding-bottom:2rem;
  }
  
- .HomePage h2{
+ .signupCont h2{
  	width:100%;
  	text-align:center;
  	padding-bottom:2rem;
@@ -89,7 +89,7 @@ body{
  	padding-bottom:8rem;
  	padding-left:5rem;
  	padding-right:5rem;
- 	width:70%;
+ 	width:80%;
  	margin:auto;
  	height:max-content;
  	border-style: solid;
@@ -97,9 +97,9 @@ body{
     border-radius: 2rem;
     background-color:##F6F4F2;
  }
-
+ 
 /* Full-width inputs */
-input[type=text], input[type=password] {
+input[type=text], input[type=email], input[type=date], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -167,9 +167,9 @@ span.psw {
   .cancelbtn {
     width: 10%;
   }
-}
-
-  .footer{
+}  
+ 
+ .footer{
     height: 10rem;
     width: 100%;
     background-color: #333;

@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Here are the resources for Aptitude</h1>
+
 </body>
 </html>

@@ -13,8 +13,8 @@
 	try{
 		
 	
-	if(UserName.equals("M") && Passward.equals("M")){
-		response.sendRedirect("../AfterLogIn/AfterLogin.jsp");
+	if(UserName.equals("Masthan") && Passward.equals("037")){
+		response.sendRedirect("../AfterLogIn/Login.jsp");
 	}
 	else{
 		response.sendRedirect("HomePage.jsp");

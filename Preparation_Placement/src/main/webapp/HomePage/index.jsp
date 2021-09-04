@@ -4,40 +4,42 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel = "stylesheet" href = "css/index.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<link rel = "stylesheet" href = "css/index.css">
+
 <title>Placement Preparation</title>
 </head>
 <body>
-<navbar class="navbars">
+	<navbar class="navbars">
         <div class="links">
-            <p class="logo">Logo</p>
+            <p class="logo">Placement Preparation Guiders</p>
             <ul>
-                <a href="HomePage.jsp"><li>LogIn/SignUp</li></a>
-                <a href="../DoubtClearance/questions.jsp"><li>Doubt Assistance</li></a>
-                <a href="#prepresource"><li>Preparation Resources</li></a>
-                <a href="#header"><li>Home</li></a>
+                <li><a href="HomePage.jsp">LogIn/SignUp</a></li>
+                <li><a href="../DoubtClearance/questions.jsp">Doubt Assistance</a></li>
+                <li><a href="#prepresource">Preparation Resources</a></li>
+                <li><a href="#header">Home</a></li>
             </ul>
         </div>
     </navbar>
+
     
     <section class="homepage">
         <div class="headersec" id="header">
-            <h1>Heading</h1>
-            <p><i>para</i></p>
+            <h1>Placement Preparation Guiders</h1>
+            <h5><i>"There are no secrets to success. It is the result of preparation, hard work, and learning from failure."- Colin Powell</i></h5>
         </div>
         
         <div class="resource" id="prepresource">
             <h3>Preparation Resources</h3>
             <ul>
-                <li><a href="../Resources/resume.jsp">Resume</a></li>
-                <li><a href="../Resources/apptitude.jsp">Apptitude</a></li>
-                <li><a href="../Resources/verbal.jsp">Verbal</a></li>
-                <li><a href="../Resources/DSA.jsp">Data Structure and Algorithms</a></li>
-                <li><a href="../Resources/OperatingSystem.jsp">Operating System</a></li>
-                <li><a href="../Resources/ComputerNetworks.jsp">Computer Networks</a></li>
-                <li><a href="../Resources/DBMS.jsp">Database Management System</a></li>
+                <li><a href="../Resources/resume.jsp" class="res"><p>Resume</p></a></li>
+                <li><a href="../Resources/apptitude.jsp" class="res"><p>Apptitude</p></a></li>
+                <li><a href="../Resources/verbal.jsp" class="res"><p>Verbal</p></a></li>
+                <li><a href="../Resources/DSA.jsp" class="res"><p>Data Structure and Algorithms</p></a></li>
+                <li><a href="../Resources/OperatingSystem.jsp" class="res"><p>Operating System</p></a></li>
+                <li><a href="../Resources/ComputerNetworks.jsp" class="res"><p>Computer Networks</p></a></li>
+                <li><a href="../Resources/DBMS.jsp" class="res"><p>Database Management System</p></a></li>
             </ul>
         </div>
         
@@ -45,26 +47,26 @@
             <h3>Feedback</h2>
             
             <form action="" method="POST" class="fform">
-
-                    Your name: <br>
-                    <input type="text" name="realname" id="name" size="51"><br>
+				<div class="container">
+                    <label for="Name"><b>Your Name:</b></label><br/>
+                    <input type="text" name="realname"><br>
                     <br>
                     
-                    Your email: <br>
-                    <input type="text" name="email" id="email" size="51"><br>
+                    <label for="Email"><b>Your Email:</b></label><br/>
+                    <input type="text" name="email"><br>
                     <br>
                     
-                    Your comments: <br>
+                    <label for="comments"><b>Your Comments:</b></label><br/>
                     <textarea name="comments" rows="10" cols="50"></textarea><br><br>
                     
-                    <input type="submit" value="Submit">
-                     
+                    <button type="submit">Submit</button>
+                  </div>   
             </form>
         </div>
     </section>
     
     <footer class="footer">
-        <h6>&copy Students of Amrita</h3>
+        <h6>&copy Students of Amrita</h6>
     </footer>
 </body>
 </html>

@@ -1,0 +1,98 @@
+@charset "ISO-8859-1";
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: max-content;
+}
+
+.navabrs{
+    width:100%;
+    padding: 0px; 
+}
+
+.logo{
+    color: white;
+    padding: 14px 16px;
+    float: left;
+}
+
+.links{
+    background-color: #333;
+    width: 100%;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  .links ul  li {
+    float: right;
+  }
+
+  .links ul  li:hover{
+    background-color:rgb(77, 77, 77);
+}
+  
+  .links ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.dbms{
+ 	width:100%;
+ 	height:max-content;
+ 	background: linear-gradient(0deg, rgba(74,95,193,1) 0%, rgba(57,79,138,1) 100%);
+ }
+ 
+ .dbmsCont{
+ 	width:70%;
+ 	height:max-content;
+ 	margin:auto;
+ 	padding-left:2rem;
+	padding-right:2rem;
+	padding-bottom:2rem;
+ 	background-color:#F7F7F7;
+ 	
+ }
+ 
+ .dbmsCont h1{
+ 	width:100%;
+ 	text-align:center;
+ 	padding-top:2rem;
+	padding-bottom:5rem;
+ }  
+  
+  
+  
+  
+  
+  a {
+	text-decoration:none;
+}
+  
+  .footer{
+    height: 10rem;
+    width: 100%;
+    background-color: #333;
+    
+}
+.footer h6{
+  color: white;
+  text-align: center;
+  padding-top: 8rem;
+}

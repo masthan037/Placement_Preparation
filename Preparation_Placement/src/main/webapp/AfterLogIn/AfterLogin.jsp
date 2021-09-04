@@ -7,7 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1> Welcome Masthan</h1>
+<%
+String UserName = request.getParameter("UserName");
+out.print(UserName);
+%>
+<h1> Welcome UserName</h1>
 <div>
 <h2>Resources</h2>
 <a href = "../DoubtClearance/discussions.jsp">Doubts Discussions</a><br/>

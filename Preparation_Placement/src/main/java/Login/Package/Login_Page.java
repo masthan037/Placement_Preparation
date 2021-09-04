@@ -34,7 +34,7 @@ public class Login_Page extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		response.getWriter().print("<h1>Hello People</h1>");
 	}
 
 }
